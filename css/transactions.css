@@ -1,0 +1,124 @@
+.transactions {
+  width: 596.66px;
+  height: 322.38px;
+  background: #ffffff;
+  /* 1 */
+
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 19.0044px;
+}
+
+.transactions__title {
+  width: 100%;
+  height: 61.89px;
+  border-radius: 19px 19px 0 0;
+  display: grid;
+  align-content: center;
+}
+
+.transactions__title h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* text-primary */
+
+  color: #404040;
+  margin-left: 24.64px;
+}
+
+.transactions__headers {
+  width: 543.74px;
+  height: 17px;
+  margin-left: 24.64px;
+  margin-bottom: 6.43px;
+  display: grid;
+  grid-template-columns: 217.67px 122.54px 148.54px 55px;
+}
+
+.trans__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #aeaeae;
+}
+
+.transactions__content {
+  width: 543.74px;
+  height: 199.63px;
+  margin-left: 24.64px;
+  display: grid;
+  grid-template-columns: 217.67px 122.54px 148.54px 55px;
+  grid-template-rows: repeat(5, 41.99px);
+}
+
+.trans__content-row {
+  display: grid;
+  align-content: center;
+  border-bottom: 0.5px solid #ececec;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* unactive */
+
+  color: #c7c7c7;
+}
+
+.trans__content-row strong {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+.trans__content-first-column {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20.4px 1fr;
+  column-gap: 5.42px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+.trans__content-icon {
+  width: 20.4px;
+  height: 20.4px;
+  background: #efefef;
+  border-radius: 6.00032px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.trans__content-icon:hover {
+  cursor: pointer;
+}

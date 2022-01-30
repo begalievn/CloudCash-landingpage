@@ -1,0 +1,514 @@
+.main__cards {
+  width: 596.66px;
+  height: 363.12px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  /* 1 */
+
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+
+  display: grid;
+  grid-template-rows: 39.1px 311.02px;
+  row-gap: 13px;
+}
+
+/* <> Cards-Header */
+
+.cards__header {
+  width: 100%;
+  height: 39.1px;
+  border-radius: 28px 28px 0 0;
+  display: grid;
+  align-items: flex-end;
+}
+
+.cards__header h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* text-primary */
+
+  color: #404040;
+
+  margin-left: 24.64px;
+}
+
+/* </> Cards-Header */
+
+/* <> Cards-Body */
+
+.cards__body {
+  width: 100%;
+  height: 311.02px;
+  border-radius: 0 0 28px 28px;
+
+  display: grid;
+  grid-template-columns: 397.85px 198.81px;
+}
+
+/* <> Cards-Body left */
+
+.cards__body-left {
+  width: 397.85px;
+  height: 311.02px;
+  display: grid;
+  grid-template-rows: 206.17px 72.66px;
+  row-gap: 32.19px;
+}
+
+.cards__card-container {
+  width: 397.85px;
+  height: 206.17px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.card-box {
+  width: 320.43px;
+  height: 206.17px;
+  background: linear-gradient(180deg, #197bbd 0%, #3391d0 100%);
+  border-radius: 26px;
+  position: relative;
+  margin-left: 35.59px;
+}
+
+.cards__arrow {
+  width: 9.63px;
+  height: 19.27px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.cards__arrow:hover {
+  cursor: pointer;
+}
+
+.cards__arrow-left {
+  left: -19.86px;
+  top: 42.5%;
+}
+
+.cards__arrow-right {
+  right: -19.87px;
+  top: 42.5%;
+}
+
+.card-box__container-for-cloud-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 26px;
+  z-index: 2;
+}
+
+.card-box__container-for-cloud-image img {
+  position: absolute;
+  top: 65.1px;
+  left: 108.85px;
+}
+
+/* <> Card itself */
+
+.card-itself {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-content: space-between;
+  padding-left: 20.89px;
+  position: absolute;
+  z-index: 3;
+}
+
+.card-itself__title {
+  width: 80.87px;
+  height: 51.14px;
+  display: grid;
+  align-content: flex-end;
+}
+
+.card-itself__title h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7475px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.card-itself__title p {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.11292px;
+  line-height: 10px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.39);
+}
+
+.card-itself__numbers {
+  width: 250px;
+  height: 26.67px;
+  display: grid;
+  grid-template-columns: 49.06px 48px 48px 50.13px;
+  column-gap: 18.27px;
+  align-items: center;
+  align-content: center;
+}
+
+.card-itself__numbers p {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.4918px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.card-itself__numbers p:nth-child(2) {
+  letter-spacing: 7px;
+  margin-left: -2.83px;
+}
+
+.card-itself__numbers p:nth-child(3) {
+  letter-spacing: 7px;
+  margin-left: 2.83px;
+}
+
+.card-itself__name-date {
+  width: 146.22px;
+  height: 50.33px;
+  display: grid;
+  grid-template-columns: 63px 37.55px;
+  column-gap: 45.67px;
+  align-content: flex-start;
+}
+
+.card-itself__name-part {
+  width: 63px;
+  height: 50.33px;
+  display: grid;
+  align-content: flex-start;
+}
+
+.card-itself__name-part p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7.17776px;
+  line-height: 9px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 5.8px;
+}
+
+.card-itself__name-part p:nth-child(2) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.6167px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.card-itself__date-part {
+  width: 37.55px;
+  height: 50.33px;
+}
+
+.card-itself__date-part p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7.17776px;
+  line-height: 9px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  margin-bottom: 5.8px;
+}
+
+.card-itself__date-part p:nth-child(2) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.6167px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+/* </> Card itself */
+
+.cards__payment-limit-container {
+  width: 397.85px;
+  height: 72.66px;
+}
+
+.payment-content {
+  width: 320.43px;
+  height: 37.09px;
+  display: grid;
+  align-content: space-between;
+  margin-left: 36.43px;
+}
+
+.payment-content__status-bar {
+  width: 100%;
+  height: 9.47px;
+  background: #f1f1f1;
+  border-radius: 13.617px;
+  display: grid;
+  align-content: center;
+}
+
+.status-bar__blue-part {
+  width: 69.25px;
+  height: 9.06px;
+  background: #197bbd;
+  border-radius: 10.7766px;
+}
+
+.payment-content__texts {
+  width: 100%;
+  height: 17px;
+  display: grid;
+  grid-template-columns: 146px 107px;
+  column-gap: 68.51px;
+  align-content: center;
+}
+
+.payment-content__texts p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #aeaeae;
+}
+
+.payment-content__texts p:nth-child(2) {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+/* </> Cards-Body left */
+
+/* <> Cards-Body right */
+
+.cards__body-right {
+  width: 198.81px;
+  height: 311.02px;
+  display: grid;
+  justify-content: flex-end;
+}
+
+.card__current-numbers {
+  width: 136px;
+  height: 275.25px;
+  margin-right: 28.28px;
+  display: grid;
+  justify-items: flex-end;
+  grid-template-rows: 55.62px 55.62px 55.62px 66.69px;
+  row-gap: 13.89px;
+}
+
+.card__current-balance {
+  width: 136px;
+  height: 55.62px;
+  display: grid;
+  align-content: flex-end;
+  justify-items: flex-end;
+}
+
+.card__grey-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #aeaeae;
+  margin: 0;
+  padding: 0;
+}
+
+.card__current-balance p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* primary */
+
+  color: #197bbd;
+}
+
+.card__current-balance strong {
+  font-size: 30px;
+}
+
+.card__income {
+  width: 86px;
+  height: 55.62px;
+  display: grid;
+  align-content: flex-end;
+  justify-items: flex-end;
+}
+
+.card__income p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* green */
+
+  color: #439a86;
+}
+
+.card__outcome {
+  width: 75px;
+  height: 55.62px;
+  display: grid;
+  align-content: flex-end;
+  justify-items: flex-end;
+}
+
+.card__outcome p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* red */
+
+  color: #bb4430;
+}
+
+.card__deactivate {
+  width: 104px;
+  height: 66.69px;
+  display: grid;
+  align-content: flex-end;
+  justify-items: flex-end;
+}
+
+.card__switch-button {
+  margin-bottom: 10.62px;
+}
+
+/* <> Card Deactivate Switch button */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  /* width: 60px;
+  height: 34px; */
+  width: 45.69px;
+  height: 23.45px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ebebeb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23.45px;
+  width: 23.45px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #cdcdcd;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(23.45px);
+  -ms-transform: translateX(23.45px);
+  transform: translateX(23.45px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 13.617px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* </> Card Deactivate Switch button */
+
+/* </> Cards-Body right */
+
+/* </> Cards-Body */
