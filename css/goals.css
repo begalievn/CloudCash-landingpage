@@ -1,0 +1,139 @@
+.main__goals {
+  width: 502.69px;
+  height: 221.35px;
+  display: grid;
+  grid-template-rows: 39.1px 168.74px;
+  row-gap: 13.51px;
+  position: relative;
+}
+
+/* <> Goals header */
+.goals__header {
+  width: 502.69px;
+  height: 39.1px;
+  display: grid;
+  align-items: flex-end;
+}
+
+.goals__title {
+  width: 85px;
+  display: grid;
+  grid-template-columns: 58px 20px;
+  column-gap: 4px;
+  align-items: center;
+  align-content: center;
+}
+
+.goals__title-icon {
+  width: 24.5px;
+  height: 24.5px;
+}
+
+.goals__title-icon:hover {
+  cursor: pointer;
+}
+
+.goals__title-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.goals__title h2 {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+
+  color: #404040;
+}
+
+/* </> Goals header */
+
+/* <> Goals body */
+
+.goals__body {
+  width: 502.69px;
+  height: 168.74px;
+  background-color: rosybrown;
+  display: grid;
+  grid-template-columns: repeat(3, 157.93px);
+  column-gap: 14.45px;
+}
+
+.goals__box {
+  width: 157.93px;
+  height: 168.74px;
+  background: #ffffff;
+
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+  display: grid;
+  align-content: space-between;
+}
+
+.goals__box-upper {
+  width: 133.29px;
+  height: 50.62px;
+  margin-left: 24.64px;
+  margin-top: 13.18px;
+}
+
+.goals__box-upper p {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #aeaeae;
+}
+
+.goals__box-upper p:nth-child(1) {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.9789px;
+  line-height: 29px;
+
+  color: #696969;
+}
+
+.goals__box-lower {
+  width: 133.29px;
+  height: 56.76px;
+  margin-left: 24.64px;
+  margin-bottom: 12.61px;
+}
+
+.goals__box-lower img {
+  margin-left: 2.33px;
+}
+
+.goals__box-lower p {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.1118px;
+  line-height: 25px;
+
+  color: #404040;
+}
+
+.goals__right-arrow {
+  position: absolute;
+  right: -21.85px;
+  top: 55%;
+  display: grid;
+  align-items: center;
+}
+
+/* </> Goals body */

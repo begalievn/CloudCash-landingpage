@@ -1,8 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
 }
 
 * {
@@ -29,6 +27,7 @@ body {
   display: grid;
   grid-template-columns: 252.54px 1224.05px;
   grid-template-rows: 903.5px;
+  margin: 0 auto;
 }
 
 .main {

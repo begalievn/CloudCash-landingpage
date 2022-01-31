@@ -110,34 +110,19 @@
   display: grid;
   grid-template-columns: 596.66px 524.55px;
   column-gap: 32.26px;
-  background-color: salmon;
   margin-left: 45px;
   /* justify-items: flex-start; */
 }
 
 .main__left {
-  background-color: #197bbd;
   display: grid;
   grid-template-rows: 363.12px 322.38px;
   row-gap: 31.03px;
 }
 
 .main__right {
-  background-color: rgb(85, 180, 204);
   display: grid;
   align-content: space-between;
-}
-
-.main__goals {
-  width: 502.69px;
-  height: 207.25px;
-  background-color: cadetblue;
-}
-
-.main__statistics {
-  width: 520.34px;
-  height: 231.69px;
-  background-color: coral;
 }
 
 .main__new-trans {
