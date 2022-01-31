@@ -21,6 +21,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Quicksand:wght@400;500&family=Raleway:wght@600&family=Rubik:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Quicksand:wght@400;500&family=Raleway:wght@600&family=Rubik:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quicksand:wght@400;500&family=Rubik:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
@@ -32,6 +44,7 @@
     <link rel="stylesheet" href="css/transactions.css" />
     <link rel="stylesheet" href="css/goals.css" />
     <link rel="stylesheet" href="css/statistics.css" />
+    <link rel="stylesheet" href="css/new-transactions.css" />
     <title>Cloud Cash</title>
   </head>
   <body>
@@ -581,7 +594,7 @@
               <div class="statistics__body">
                 <!-- Statistics Rows -->
                 <div class="statistics__row">
-                  <div class="statistics__icon">
+                  <div class="statistics__icon statistics__icon-orange">
                     <img
                       src="images/main/main-body/statistics/cart-trolley-icon.svg"
                       alt="category icon"
@@ -589,19 +602,131 @@
                   </div>
                   <div class="statistics__progress-bar">
                     <div class="progress-bar">
-                      <div class="progress-bar-1"></div>
+                      <div class="progress-bar__1"></div>
                     </div>
-                    <p>Shoppping</p>
+                    <p>Shopping</p>
                   </div>
-                  <div class="statistics__percent"></div>
+                  <div class="statistics__percent">
+                    <p>52%</p>
+                  </div>
                 </div>
-                <div class="statistics__row"></div>
-                <div class="statistics__row"></div>
+
+                <div class="statistics__row">
+                  <div class="statistics__icon statistics__icon-green">
+                    <img
+                      src="images/main/main-body/statistics/track-icon.svg"
+                      alt="category icon"
+                    />
+                  </div>
+                  <div class="statistics__progress-bar">
+                    <div class="progress-bar">
+                      <div class="progress-bar__2"></div>
+                    </div>
+                    <p>Electronics</p>
+                  </div>
+                  <div class="statistics__percent">
+                    <p>21%</p>
+                  </div>
+                </div>
+
+                <div class="statistics__row">
+                  <div class="statistics__icon statistics__icon-blue">
+                    <img
+                      src="images/main/main-body/statistics/plane-icon.svg"
+                      alt="category icon"
+                    />
+                  </div>
+                  <div class="statistics__progress-bar">
+                    <div class="progress-bar">
+                      <div class="progress-bar__3"></div>
+                    </div>
+                    <p>Travels</p>
+                  </div>
+                  <div class="statistics__percent">
+                    <p>74%</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             <!-- New Transactions -->
-            <div class="main__new-trans"></div>
+            <div class="new-trans">
+              <div class="new-trans__left">
+                <div class="new-trans__header">
+                  <h2>New transaction</h2>
+                </div>
+                <div class="new-trans__people-container">
+                  <div class="new-trans__people">
+                    <!-- Person box -->
+                    <div class="person-box">
+                      <div class="person-box__icon">
+                        <img src="images/main/main-body/new-trans/ann.svg" />
+                      </div>
+                      <p>Ann</p>
+                    </div>
+
+                    <div class="person-box">
+                      <div class="person-box__icon">
+                        <img src="images/main/main-body/new-trans/monica.svg" />
+                      </div>
+                      <p>Monica</p>
+                    </div>
+
+                    <div class="person-box">
+                      <div class="person-box__icon">
+                        <img src="images/main/main-body/new-trans/john.svg" />
+                      </div>
+                      <p>John</p>
+                    </div>
+
+                    <div class="person-box">
+                      <div class="person-box__icon">
+                        <img src="images/main/main-body/new-trans/mike.svg" />
+                      </div>
+                      <p>Mike</p>
+                    </div>
+
+                    <div class="person-box">
+                      <div class="person-box__icon">
+                        <img src="images/main/main-body/new-trans/mia.svg" />
+                      </div>
+                      <p>Mia</p>
+                    </div>
+                  </div>
+                  <div class="new-trans__people-add">
+                    <div class="people-add__icon">
+                      <img
+                        src="images/main/main-body/new-trans/plus-circle-icon.svg"
+                      />
+                    </div>
+                    <p>Add New</p>
+                  </div>
+                </div>
+
+                <div class="new-trans__sending">
+                  <div class="sending__input">
+                    <div class="sending__input-content">
+                      <p>0</p>
+                      <p>$</p>
+                    </div>
+                  </div>
+                  <div class="sending__button">
+                    <p>Send the transfer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="new-trans-right">
+                <div class="new-trans-right__text">
+                  <p>
+                    Get great<br />
+                    loan!
+                  </p>
+                </div>
+                <div class="new-trans-right__clouds">
+                  <img src="images/main/main-body/new-trans/clouds.svg" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
