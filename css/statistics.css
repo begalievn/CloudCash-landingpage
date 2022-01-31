@@ -54,6 +54,10 @@
   border-radius: 3px;
 }
 
+.statistics__icon:hover {
+  cursor: pointer;
+}
+
 .statistics__icon-orange {
   background: #ffeada;
   /* 1 */

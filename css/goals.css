@@ -75,6 +75,10 @@
   align-content: space-between;
 }
 
+.goals__box:hover {
+  cursor: pointer;
+}
+
 .goals__box-upper {
   width: 133.29px;
   height: 50.62px;
@@ -115,6 +119,10 @@
   margin-left: 2.33px;
 }
 
+.goals__box-lower img:hover {
+  cursor: pointer;
+}
+
 .goals__box-lower p {
   margin: 0;
   padding: 0;
@@ -133,6 +141,10 @@
   top: 55%;
   display: grid;
   align-items: center;
+}
+
+.goals__right-arrow:hover {
+  cursor: pointer;
 }
 
 /* </> Goals body */

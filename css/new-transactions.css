@@ -64,6 +64,10 @@
   justify-items: center;
 }
 
+.person-box:hover {
+  cursor: pointer;
+}
+
 .person-box__icon {
   width: 42.14px;
   height: 42.14px;
@@ -96,6 +100,10 @@
 .people-add__icon {
   display: grid;
   align-content: center;
+}
+
+.people-add__icon:hover {
+  cursor: pointer;
 }
 
 .new-trans__people-add p {
@@ -192,6 +200,10 @@
   justify-items: center;
 }
 
+.sending__button:hover {
+  cursor: pointer;
+}
+
 .sending__button p {
   margin: 0;
   padding: 0;
@@ -220,6 +232,10 @@
   align-items: flex-end;
   position: relative;
   overflow: hidden;
+}
+
+.new-trans-right {
+  cursor: pointer;
 }
 
 .new-trans-right__text {
